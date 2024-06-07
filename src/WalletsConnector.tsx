@@ -1,7 +1,6 @@
 import { useConfig, useConnect } from "@quirks/react";
 
 export const WalletsConnector = () => {
-  // Get the list of wallets
   const { wallets } = useConfig();
   const { connect, disconnect, connected } = useConnect();
 

@@ -1,5 +1,4 @@
-import { sign, getAddress, broadcast } from "@quirks/store";
-import { useChains, useConnect } from "@quirks/react";
+import { broadcast, getAddress, sign } from "@quirks/store";
 
 export const SendToken = async (recipientAddress: string, amount: any) => {
   const cosmos = (await import("osmojs")).cosmos;
